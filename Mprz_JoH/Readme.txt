@@ -1,0 +1,2 @@
+The script "count_gc.py" was coded to get the GC content and the usage is "python3 count_gc.py input_genome.fa output_gc_stat.txt", where "input_genome.fa" is the genome sequence file in fasta format.
+The script "repeat_density_stat.py" was coded to compute the density of repetive elements and the usage is "python repeat_density_stat.py input_repeat.gff genome_chrLen.txt output_repeat_density.txt", where "input_repeat.gff" is the repeat file in gff format and "genome_chrLen.txt" contains the information of chromosome length  obtained from samtools faidx.
